@@ -48,12 +48,28 @@
                 <?php unset($_SESSION['novasenhaErro']); }?>
                             <!-- end alerts -->
                               <!-- alerts -->
-                              <?php if(isset($_SESSION['novasenha'])){?>
-                            <div class="alert alert-success alert-dismissible" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="notika-icon notika-close"></i></span></button>
-                            <i class="fa fa-check-circle"></i> <?= $_SESSION['novasenha'];?>
-                            </div>
-                            <?php unset($_SESSION['novasenha']); }?>
+                <?php if(isset($_SESSION['novasenha'])){?>
+                <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="notika-icon notika-close"></i></span></button>
+                <i class="fa fa-check-circle"></i> <?= $_SESSION['novasenha'];?>
+                </div>
+                <?php unset($_SESSION['novasenha']); }?>
+                            <!-- end alerts -->
+                            <!-- alerts -->
+                <?php if(isset($_SESSION['userSalvo'])){?>
+                <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="notika-icon notika-close"></i></span></button>
+                <i class="fa fa-check-circle"></i> <?= $_SESSION['userSalvo'];?>
+                </div>
+                <?php unset($_SESSION['userSalvo']); }?>
+                            <!-- end alerts -->
+                                         <!-- alerts -->
+                <?php if(isset($_SESSION['userSalvoErro'])){?>
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="notika-icon notika-close"></i></span></button>
+                    <i class="fa fa-warning"></i> <?= $_SESSION['userSalvoErro'];?>
+                    </div>
+                <?php unset($_SESSION['userSalvoErro']); }?>
                             <!-- end alerts -->
                 <h3>Acessar Sistema</h3>
                 <div class="input-group">

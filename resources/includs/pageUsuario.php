@@ -46,7 +46,7 @@ $row = $listUser->fetch(PDO::FETCH_OBJ);
                                 <div role="menu" class="dropdown-menu message-dd task-dd animated zoomIn">
                             </li>
                             <li class="nav-item">
-                            <a href="../App/Db/logout.php" 
+                            <a href="../Backup/arquivodb.php" 
                              class="nav-link dropdown-toggle"><span>
                                  <i class="fa fa-sign-out"></i></span> <small  id="btn-sair">Sair</small></a>
                                 <div role="menu" class="dropdown-menu message-dd chat-dd animated zoomIn">
@@ -73,7 +73,7 @@ $row = $listUser->fetch(PDO::FETCH_OBJ);
                                 <i class="fa fa-user"></i> Usuário</a>
                         </li>
                         <li  id="link-pagina">
-                            <a   href="../App/Db/Database/backup.php">
+                            <a   href="../Backup/arquivodb.php">
                             <i class="fa fa-database"></i> Backup</a>
                         </li>
                      </ul>
