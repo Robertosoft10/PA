@@ -1,5 +1,6 @@
 <?php
  session_start();
+ include '../App/protection.php';
  require_once '../App/client.Dao.php';
 $clientDao = new ClientDAO();
 $objt = $clientDao->clientList();

@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include '../App/protection.php';
 require_once '../App/user.Dao.php';
 @$useId = $_GET['param'];
 $userDao = new UserDAO();

@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include '../App/protection.php';
 require_once '../App/client.Dao.php';
 @$clientId = $_GET['param'];
 $clientDao = new ClientDAO();

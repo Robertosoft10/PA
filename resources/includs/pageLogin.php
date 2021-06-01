@@ -1,4 +1,8 @@
-<?php session_start();?>
+<?php session_start();
+
+ unset($_SESSION['username'],
+ $_SESSION['userpassword']);
+?>
 <div class="login-content">
         <!-- Login -->
         <div class="nk-block toggled" id="l-login">
@@ -7,6 +11,14 @@
         <small id="nome-sistema-seg">Sistema Pedido de Artes</small>
            <form action="App/autentc-user.php" method="post">
             <div class="nk-form">
+             <!-- alerts -->
+             <?php if(isset($_SESSION['secury'])){?>
+            <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="notika-icon notika-close"></i></span></button>
+           <i class="fa fa-warning"></i> <?= $_SESSION['secury'];?>
+            </div>
+            <?php unset($_SESSION['secury']); }?>
+             <!-- end alerts -->
                 <!-- alerts -->
             <?php if(isset($_SESSION['loginIncorreto'])){?>
             <div class="alert alert-danger alert-dismissible" role="alert">
