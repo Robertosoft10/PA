@@ -1,0 +1,92 @@
+.login-content{
+    background-color: #ece6e6;
+}
+#logo-sistema{
+    font-size: 60pt;
+    color: #734eb4;
+}
+#nome-sistema{
+font-size: 25pt;
+    color: #734eb4;
+    font-weight: bold;
+}
+#nome-sistema-seg{
+    font-size: 12pt;
+    color: #734eb4;
+    font-weight: bold;
+}
+#l-login{
+margin-top: -15%;
+}
+#btn-login{
+    width: 100%;
+    background-color: #00c292;
+    color: #ffffff;
+    height: 35px;
+}
+#link-senha-login{
+    text-align: left;
+}
+#logo-pagina{
+    color: #ffffff;
+    font-size: 16pt;
+}
+#btn-sair{
+    font-size: 12pt;
+}
+#btn-acao-page{
+    width: 20%;
+}
+#barra-topo{
+    background-color: #734eb4;
+}
+#barra-baixa{
+    background-color: #734eb4;
+    margin-top: 20%;
+}
+#link-pagina a:hover{
+    color: #ffffff;
+    }
+#link-pagina a:hover{
+background-color: #00c292;
+color: #ffffff;
+}
+#btn-acao-cor{
+    background-color: #00c292;
+    color: #ffffff;
+    font-size: 11pt;
+}
+#btn-salvar-page{
+    background-color: #00c292;
+    color: #ffffff;
+    font-size: 11pt;
+    height: 40px;
+    width: 300%;
+}
+#valor-arte{
+    width: 13%;
+}
+#data-arte{
+    width: 13%;
+}
+#btn-acao-detalhe{
+    width: 15%;
+}
+#desc-arte{
+    width: 30%;
+}
+#arte-arte{
+    width: 20%;
+}
+#btn-salvar-image{
+    background-color: #00c292;
+    color: #ffffff;
+    font-size: 11pt;
+    height: 40px;
+}
+#img-user{
+    width: 40px;
+}
+#image-user{
+    width: 40px;
+}
